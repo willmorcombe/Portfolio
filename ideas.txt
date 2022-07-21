@@ -1,0 +1,10 @@
+brittanychiang.com -> good inspiration
+
+headers ->
+  home
+  about
+  projects
+  experience
+  contact
+
+color scheme -> https://www.schemecolor.com/light-to-dark-blue.php
