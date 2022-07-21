@@ -90,13 +90,62 @@
 
 /* ABOUT ELEMENTS */
 
-.about-div {
-  background-color: #1E3F66;
+.about-heading {
+  background-color: #0a192f;
   display: flex;
   justify-content: center;
 }
 
-.about-heading-div {
+.about-heading-div-right {
+  margin: auto;
+  width: 65%;
+  padding-left: 10px;
+  background-color: #0a192f;
+
+}
+
+.about-heading-div-left {
+  width: 35%;
   display: flex;
-  justify-content: l
+  background-color: #0a192f;
+  justify-content: flex-end;
+}
+
+.about-heading {
+  font-family: 'Quicksand', sans-serif;
+  padding-left: 10px;
+  color: #BCD2E8;
+  font-size: 20px
+}
+
+.about-number {
+  color: #73A5C6;
+  font-size: 20px;
+  margin-top: 22px;
+}
+
+hr {
+  margin: 0px;
+  width: 50%;
+  opacity: 0.3;
+}
+
+.about-main {
+  display: flex;
+  background-color: #73A5C6;
+}
+
+.about-main-left {
+  background-color: red;
+  width: 30%;
+}
+
+.about-main-right {
+  width: 70%;
+  display: flex;
+}
+
+.headshot {
+  height: 200px;
+  width: 200px;
 }
