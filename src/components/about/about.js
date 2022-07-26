@@ -1,0 +1,15 @@
+import React, { Component } from 'react';
+import text_content from '../../constants/about_data.js';
+import photo from '../../constants/photo.jpg';
+
+class About extends Component {
+
+
+  render() {
+    return (
+      <section id="about">About</section>
+    )
+  }
+}
+
+export default About
