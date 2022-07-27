@@ -4,7 +4,7 @@ class Projects extends Component {
 
   render() {
     return (
-      <h1>PROJECTS SECTION</h1>
+      <section id="projects">projects</section>
     )
   }
 }

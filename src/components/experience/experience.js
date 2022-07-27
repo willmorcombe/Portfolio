@@ -4,7 +4,7 @@ class Experience extends Component {
 
   render() {
     return (
-      <h1>EXPERIENCE SECTION</h1>
+      <section id="experience">Experience</section>
     )
   }
 }
