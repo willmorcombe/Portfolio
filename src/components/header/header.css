@@ -1,5 +1,5 @@
 header {
-  height:70rem;
+  height:100vh;
   padding-top: 7rem;
   overflow: hidden;
 }
@@ -86,8 +86,19 @@ header {
   }
 
   header {
-    height: 42rem;
+    height: 100vh;
     padding-top: 50px;
+  }
+
+  .me-img {
+    height: 25%;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+  h5 {
+    font-size: 1rem;
   }
 }
 

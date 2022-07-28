@@ -1,0 +1,140 @@
+.experience-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+
+}
+
+.experience-container-left {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: '. .'
+                       '. practices';
+  gap: 1rem;
+}
+
+.experience-container-left > div {
+  background: var(--bg-color-variant);
+  padding: 2.4rem 4rem;
+  border-radius: 2rem;
+  border: 1px solid transparent;
+  transition: var(--transition);
+  height: fit-content;
+}
+
+.experience-container-left > div:hover {
+  background: transparent;
+  border-color: var(--color-primary-variant);
+  cursor: default;
+}
+
+.experience-container-left > div h3 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: var(--color-primary);
+}
+
+.experience-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 2rem;
+}
+
+.experience-details {
+  display: flex;
+  gap: 1rem;
+}
+
+.experience-container-right {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr 0.5fr;
+  grid-template-rows: auto;
+  grid-template-areas: ". job .";
+  width: 100%;
+}
+
+.experience-work {
+
+  grid-area: job;
+  background: var(--bg-color-variant);
+  border-radius: 0 0 2rem 2rem;
+  border: 1px solid var(--bg-color);
+  height: fit-content;
+  transition: var(--transition);
+}
+
+.experience-work:hover {
+  background: transparent;
+  border-color: var(--color-primary-variant);
+  cursor: default;
+}
+
+.experience-work-head {
+  background: var(--color-primary);
+  padding: 2rem;
+  border-radius: 0 0 2rem 2rem;
+  box-shadow: 0 2rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.experience-work-head h3 {
+  color: var(--bg-color);
+  font-size: 1rem;
+  text-align: center;
+}
+
+.work-list {
+  padding: 2rem;
+}
+
+.work-list li {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 0.8rem;
+}
+
+.work-list-icon {
+  color: var(--color-primary);
+  margin-top: 2px;
+}
+
+.work-list p {
+  font-size: 0.9rem;
+}
+
+.expereience-practices {
+  grid-area: practices;
+}
+
+.experience-container h3 {
+  text-align: center;
+}
+
+/* ======================= media queries ======================== */
+
+@media screen and (max-width: 1200px) {
+  .experience-container {
+    grid-template-columns: 1fr;
+  }
+
+  .experience-container-left {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .experience-details {
+    text-align: center;
+    justify-self: center;
+  }
+
+  .experience-container-left > div {
+    width: 80%;
+    padding: 2rem;
+    margin: 0 auto;
+  }
+  }
+
+  @media screen and (max-width: 600px) {
+    .experience-details {
+      font-size: 0.8rem;
+    }
+    }
