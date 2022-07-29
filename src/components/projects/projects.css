@@ -29,4 +29,5 @@
 .project-item-button {
   display: flex;
   justify-content: center;
+  transition: var(--transition);
 }

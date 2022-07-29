@@ -1,39 +1,30 @@
-import React from "react";
-import "./modal.css";
+import React, { Component } from 'react';
+import './modal.css';
 
-function Modal({ setOpenModal }) {
-  return (
-    <div className="modalBackground">
-      <div className="modalContainer">
-        <div className="titleCloseBtn">
-          <button
-            onClick={() => {
-              setOpenModal(false);
-            }}
-          >
-            X
-          </button>
+class Modal extends Component {
+    render() {
+        return (
+
+          <div className="modal">
+            <div className="modal__content">
+                <h1>CSS Only Modal</h1>
+
+                <p>
+                    You can use the :target pseudo-className to create a modals with Zero JavaScript. Enjoy!
+                </p>
+
+                <div className="modal__footer">
+                    Made with <i className="fa fa-heart"></i>, by <a href="https://twitter.com/denicmarko" target="_blank">@denicmarko</a>
+                </div>
+
+                <a onClick={this.props.closeModal} className="modal__close">&times;</a>
+            </div>
         </div>
-        <div className="title">
-          <h1>Are You Sure You Want to Continue?</h1>
-        </div>
-        <div className="body">
-          <p>The next page looks amazing. Hope you want to go there!</p>
-        </div>
-        <div className="footer">
-          <button
-            onClick={() => {
-              setOpenModal(false);
-            }}
-            id="cancelBtn"
-          >
-            Cancel
-          </button>
-          <button>Continue</button>
-        </div>
-      </div>
-    </div>
-  );
+
+
+
+        )
+    }
 }
 
 export default Modal;

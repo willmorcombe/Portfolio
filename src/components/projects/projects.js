@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './projects.css';
 import IMG from '../../assets/project.jpg';
 import Modal from '../modal/modal.js';
+
 import {useState} from 'react';
 
 class Projects extends Component {
@@ -15,16 +16,17 @@ class Projects extends Component {
   }
 
 
+  closeModal = () => {this.setState({openModal: false})}
 
   render() {
+    {console.log(this.state.openModal)}
 
-    console.log(this.state.openModal);
     return (
       <section id="projects">
         <h5>My Recent Work</h5>
         <h2>Projects</h2>
 
-        <Modal/>
+
 
         <div className="container project-container">
 
@@ -87,7 +89,10 @@ class Projects extends Component {
 
 
 
+
+
         </div>
+        {this.state.openModal && <Modal closeModal={this.closeModal}/>}
       </section>
     )
   }
