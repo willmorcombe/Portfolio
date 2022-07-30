@@ -5,6 +5,9 @@
 }
 
 .project-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   background: var(--bg-color-variant);
   padding: 1.3rem;
   border-radius: 2rem;
@@ -20,14 +23,20 @@
 .project-item-image {
   border-radius: 1.5rem;
   overflow: hidden;
+  aspect-ratio: 1/1;
+
 }
 
 .project-item h3 {
   margin: 1.2rem 0 2rem;
+  text-align: center;
 }
 
 .project-item-button {
   display: flex;
   justify-content: center;
   transition: var(--transition);
+
+
+
 }
