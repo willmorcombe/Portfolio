@@ -10,12 +10,17 @@
 
 :root {
   /* colors */
-  --bg-color: #1f1f38;
+  /* --bg-color: #1f1f38;
   --bg-color-variant: #2c2c6c;
   --color-primary: #4db5ff;
-  --color-priamry-variant: rgba(77, 181, 255, 0.4);
+  --color-priamry-variant: rgba(77, 181, 255, 0.4); */
+  --bg-color: #363636;
+  --bg-color-variant: #474747;
+  --color-primary: rgba(232, 23, 93, 0.8);
+  --color-priamry-variant: #cc527a;
   --color-white: #fff;
   --color-light: rgba(255, 255, 255, 0.6);
+  --color-success: #12a339;
 
   /* container width */
 

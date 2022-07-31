@@ -36,7 +36,22 @@
   display: flex;
   justify-content: center;
   transition: var(--transition);
+}
 
+/* =========================== media queries =========================*/
 
+@media screen and (max-width: 1024px) {
+  .project-container {
+    grid-template-columns: 1fr 1fr;
+    gap: 1.2rem;
+  }
+}
 
+/* SMALL DEVICES */
+
+@media screen and (max-width: 600px) {
+  .project-container {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
 }
