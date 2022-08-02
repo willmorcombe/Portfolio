@@ -12,6 +12,7 @@ class About extends Component {
   render() {
     return (
       <section id="about">
+        <div className="about-header-divider">,</div>
         <h5>Get to know</h5>
         <h2>About Me</h2>
 

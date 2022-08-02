@@ -2,6 +2,13 @@ header {
   height:100vh;
   padding-top: 7rem;
   overflow: hidden;
+  background: var(--color-black);
+  background-image: url(../../assets/background.png);
+  posistion: absolute;
+}
+
+.header-name {
+  color: var(--color-primary);
 }
 
 .header-container {
@@ -31,6 +38,7 @@ header {
   position: absolute;
   left: 0;
   bottom : 0;
+  font-size: 2rem;
 }
 
 .socials {
@@ -41,7 +49,7 @@ header {
   margin-top: 1rem;
   content: "";
   width: 1px;
-  height: 4rem;
+  height: 8rem;
   background: var(--color-primary);
 }
 
@@ -95,10 +103,10 @@ header {
   }
 
   h1 {
-    font-size: 2rem;
+    font-size: 2.7rem;
   }
   h5 {
-    font-size: 1rem;
+    font-size: 1.7rem;
   }
 }
 

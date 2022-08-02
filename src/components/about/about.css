@@ -4,6 +4,18 @@
   gap: 15%;
 }
 
+.about-header-divider {
+  display: grid;
+  grid-template-columns: 1fr;
+  background: var(--color-primary);
+  color: var(--color-primary);
+  margin-bottom: 8rem;
+}
+
+section {
+  margin: 0;
+}
+
 .about-me {
   width: 100%;
   aspect-ratio: 1/1;
