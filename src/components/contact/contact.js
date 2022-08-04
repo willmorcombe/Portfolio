@@ -49,6 +49,7 @@ class Contact extends Component {
 
     return (
       <section id="contact">
+        <div className="about-header-divider">,</div>
         <h5>Get In Touch</h5>
         <h2>Contact Me</h2>
 

@@ -5,6 +5,10 @@
 
 }
 
+.experience-section {
+  background: var(--bg-color-two);
+}
+
 .experience-container-left {
   display: grid;
   grid-template-columns: 1fr 1fr;

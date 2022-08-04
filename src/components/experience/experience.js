@@ -29,7 +29,8 @@ class Experience extends Component {
 
   render() {
     return (
-      <section id="experience">
+      <section id="experience" className="experience-section">
+        <div className="about-header-divider">,</div>
         <h5>What Skills I have</h5>
         <h2>My Experience</h2>
 
@@ -157,7 +158,7 @@ class Experience extends Component {
           </div>
 
           <h3 className={this.state.width > 1200 ? 'hidden' : 'experience-title-right'}>My Jobs</h3>
-        
+
           <div className="experience-container-right">
             <article className="experience-work">
               <div className="experience-work-head">

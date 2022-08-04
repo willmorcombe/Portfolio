@@ -64,7 +64,8 @@ class Projects extends Component {
 
 
 
-      <section id="projects">
+      <section id="projects" className="project-section">
+        <div className="about-header-divider">,</div>
         <h5>My Recent Work</h5>
         <h2>Projects</h2>
 
@@ -78,7 +79,7 @@ class Projects extends Component {
             </div>
             <h3>{this.state.isLoaded && this.state.data[0].name}</h3>
             <div className="project-item-button">
-              <a className="btn" onClick={() => this.setMultipleStates(0, true)}>Read More</a>
+              <a className="btn btn-primary" onClick={() => this.setMultipleStates(0, true)}>Read More</a>
             </div>
           </article>
 
@@ -88,7 +89,7 @@ class Projects extends Component {
             </div>
             <h3>{this.state.isLoaded && this.state.data[1].name}</h3>
             <div className="project-item-button">
-              <a className="btn" onClick={() => this.setMultipleStates(1, true)}>Read More</a>
+              <a className="btn btn-primary" onClick={() => this.setMultipleStates(1, true)}>Read More</a>
             </div>
           </article>
 
@@ -98,7 +99,7 @@ class Projects extends Component {
             </div>
             <h3>{this.state.isLoaded && this.state.data[2].name}</h3>
             <div className="project-item-button">
-              <a className="btn" onClick={() => this.setMultipleStates(2, true)}>Read More</a>
+              <a className="btn btn-primary" onClick={() => this.setMultipleStates(2, true)}>Read More</a>
             </div>
           </article>
 
@@ -108,7 +109,7 @@ class Projects extends Component {
             </div>
             <h3>{this.state.isLoaded && this.state.data[3].name}</h3>
             <div className="project-item-button">
-              <a className="btn" onClick={() => this.setMultipleStates(3, true)}>Read More</a>
+              <a className="btn btn-primary" onClick={() => this.setMultipleStates(3, true)}>Read More</a>
             </div>
           </article>
 
@@ -118,7 +119,7 @@ class Projects extends Component {
             </div>
             <h3>{this.state.isLoaded && this.state.data[5].name}</h3>
             <div className="project-item-button">
-              <a className="btn" onClick={() => this.setMultipleStates(5, true)}>Read More</a>
+              <a className="btn btn-primary" onClick={() => this.setMultipleStates(5, true)}>Read More</a>
             </div>
           </article>
 
@@ -128,7 +129,7 @@ class Projects extends Component {
             </div>
             <h3>{this.state.isLoaded && this.state.data[6].name}</h3>
             <div className="project-item-button">
-              <a className="btn" onClick={() => this.setMultipleStates(5, true)}>Read More</a>
+              <a className="btn btn-primary" onClick={() => this.setMultipleStates(5, true)}>Read More</a>
             </div>
           </article>
 
