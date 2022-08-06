@@ -48,7 +48,7 @@ class Contact extends Component {
 
 
     return (
-      <section id="contact">
+      <section id="contact" className="contact-div">
         <div className="about-header-divider">,</div>
         <h5>Get In Touch</h5>
         <h2>Contact Me</h2>
@@ -85,6 +85,7 @@ class Contact extends Component {
 
 
         </div>
+        <div className="about-header-divider about-header-divider-variant">,</div>
       </section>
     )
   }

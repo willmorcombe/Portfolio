@@ -7,11 +7,15 @@ footer {
   padding: 5rem 0;
   text-align: center;
   font-size: 0.9rem;
-  margin-top: 7rem;
+  padding-top: 7rem;
 }
 
 footer a {
   color: var(--bg-color);
+}
+
+.about-header-divider-variant {
+
 }
 
 .vl-left {
@@ -68,6 +72,6 @@ footer a {
     flex-direction: column;
   }
   .vl-left, .vl-right {
-    height: 22rem;  
+    height: 22rem;
   }
 }
