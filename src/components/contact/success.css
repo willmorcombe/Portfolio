@@ -1,0 +1,22 @@
+.success-banner-show {
+  visibility: visible;
+  opacity: 1;
+  background: var(--color-success);
+  border-radius: 0.5rem;
+  transition: var(--transition);
+}
+
+.success-banner-render {
+  visibility: hidden;
+  opacity: 0;
+  background: var(--color-success);
+  border-radius: 0.5rem;
+  transition: var(--transition);
+}
+
+.success-banner-text {
+  opacity: 1;
+  padding: 1rem;
+  font-size: 1rem;
+  text-align: center;
+}

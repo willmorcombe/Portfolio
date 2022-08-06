@@ -8,3 +8,7 @@ headers ->
   contact
 
 color scheme -> https://www.schemecolor.com/light-to-dark-blue.php
+
+https://dev.to/bhuma08/react-create-modal-using-class-components-5d1g modal
+
+https://css-tricks.com/snippets/css/complete-guide-grid/#aa-introduction grid useful

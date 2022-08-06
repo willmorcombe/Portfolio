@@ -6,17 +6,22 @@ import About from './components/about/about.js';
 import Contact from './components/contact/contact.js';
 import Experience from './components/experience/experience.js';
 import Projects from './components/projects/projects.js';
+import Footer from './components/footer/footer.js';
 
 
 export default function App() {
+
+
   return (
     <div>
+
       <Header />
       <Navbar />
       <About />
       <Experience />
       <Projects />
       <Contact />
+      <Footer />
     </div>
 
   )

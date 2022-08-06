@@ -5,6 +5,7 @@ import ME from '../../assets/me.png';
 import {BsLinkedin} from 'react-icons/bs';
 import {BsGithub} from 'react-icons/bs';
 
+
 class Header extends Component {
 
   render() {
@@ -12,9 +13,14 @@ class Header extends Component {
 
       <header>
         <div className="container header-container">
-          <h5>Hello, I'm</h5>
-          <h1>Will Morcombe</h1>
-          <h5 className="text-light">Developer</h5>
+
+          <div className="header-name-div">
+            <h1>Hello, I'm {<h1 className="header-name">Will Morcombe</h1>}
+            I'm a software developer.
+            </h1>
+          </div>
+
+          <h5 className="text-light">London</h5>
 
 
           {/* contact buttons */}
@@ -23,11 +29,6 @@ class Header extends Component {
             <a href="#contact" className="btn btn-primary">Contact</a>
           </div>
 
-
-          {/* image of me */}
-          <div className="me">
-            <img src={ME} className="me-img" alt="me" />
-          </div>
 
 
 
