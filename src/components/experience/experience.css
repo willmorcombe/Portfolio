@@ -12,8 +12,8 @@
 .experience-container-left {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-areas: '. .'
-                       '. practices';
+  grid-template-areas: 'languages languages'
+                       '. .';
   gap: 1rem;
 }
 
@@ -51,14 +51,13 @@
 
 .experience-container-right {
   display: grid;
-  grid-template-columns: 0.2fr 1fr 0.2fr;
+  grid-template-columns: 0.1fr 1fr;
   grid-template-rows: auto;
-  grid-template-areas: ". job .";
+  grid-template-areas: ". job ";
   width: 100%;
 }
 
 .experience-work {
-
   grid-area: job;
   background: var(--bg-color-variant);
   border-radius: 0 0 2rem 2rem;
@@ -105,12 +104,19 @@
   font-size: 0.9rem;
 }
 
-.expereience-practices {
-  grid-area: practices;
+.experience-languages {
+  grid-area: languages;
 }
 
 .experience-container h3 {
   text-align: center;
+}
+
+.languages-detial {
+  display: flex;
+  gap: 1rem;
+  text-align: center;
+  justify-self: center;
 }
 
 /* ======================= media queries ======================== */

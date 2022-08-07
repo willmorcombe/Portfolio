@@ -129,7 +129,7 @@ class Projects extends Component {
             </div>
             <h3>{this.state.isLoaded && this.state.data[6].name}</h3>
             <div className="project-item-button">
-              <a className="btn btn-primary" onClick={() => this.setMultipleStates(5, true)}>Read More</a>
+              <a className="btn btn-primary" onClick={() => this.setMultipleStates(6, true)}>Read More</a>
             </div>
           </article>
 

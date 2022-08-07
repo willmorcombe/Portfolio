@@ -44,7 +44,7 @@ class Experience extends Component {
             <div className="experience-languages">
               <h3>Programming Languages</h3>
               <div className="experience-content">
-                <article className="experience-details">
+                <article className="experience-details languages-detial">
                   <BsPatchCheckFill/>
                   <div>
                     <h4>Python</h4>
@@ -52,26 +52,26 @@ class Experience extends Component {
                   </div>
                 </article>
 
-                <article className="experience-details">
+                <article className="experience-details languages-detial">
                   <BsPatchCheckFill/>
                   <div>
-                    <h4>Python</h4>
+                    <h4>Javascript</h4>
                     <small className="text-light">Experienced</small>
                   </div>
                 </article>
 
-                <article className="experience-details">
+                <article className="experience-details languages-detial">
                   <BsPatchCheckFill/>
                   <div>
-                    <h4>Python</h4>
+                    <h4>HTML/CSS</h4>
                     <small className="text-light">Experienced</small>
                   </div>
                 </article>
 
-                <article className="experience-details">
+                <article className="experience-details languages-detial">
                   <BsPatchCheckFill/>
                   <div>
-                    <h4>Python</h4>
+                    <h4>SQL</h4>
                     <small className="text-light">Experienced</small>
                   </div>
                 </article>
@@ -80,12 +80,12 @@ class Experience extends Component {
 
             {/* start of new article */}
             <div className="expereience-frameworks">
-              <h3>Frameworks</h3>
+              <h3>Frameworks / Libraries</h3>
               <div className="experience-content">
                 <article className="experience-details">
                   <BsPatchCheckFill/>
                   <div>
-                    <h4>Python</h4>
+                    <h4>Django</h4>
                     <small className="text-light">Experienced</small>
                   </div>
                 </article>
@@ -93,7 +93,7 @@ class Experience extends Component {
                 <article className="experience-details">
                   <BsPatchCheckFill/>
                   <div>
-                    <h4>Python</h4>
+                    <h4>React</h4>
                     <small className="text-light">Experienced</small>
                   </div>
                 </article>
@@ -101,7 +101,7 @@ class Experience extends Component {
                 <article className="experience-details">
                   <BsPatchCheckFill/>
                   <div>
-                    <h4>Python</h4>
+                    <h4>Pandas</h4>
                     <small className="text-light">Experienced</small>
                   </div>
                 </article>
@@ -109,7 +109,7 @@ class Experience extends Component {
                 <article className="experience-details">
                   <BsPatchCheckFill/>
                   <div>
-                    <h4>Python</h4>
+                    <h4>PyTorch</h4>
                     <small className="text-light">Experienced</small>
                   </div>
                 </article>
@@ -123,7 +123,7 @@ class Experience extends Component {
                 <article className="experience-details">
                   <BsPatchCheckFill/>
                   <div>
-                    <h4>Gitlab</h4>
+                    <h4>OOP</h4>
                     <small className="text-light">Experienced</small>
                   </div>
                 </article>
@@ -131,7 +131,7 @@ class Experience extends Component {
                 <article className="experience-details">
                   <BsPatchCheckFill/>
                   <div>
-                    <h4>Gitlab</h4>
+                    <h4>Agile</h4>
                     <small className="text-light">Experienced</small>
                   </div>
                 </article>
