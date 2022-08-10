@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { PureComponent } from 'react';
 import './contact.css';
 import {HiOutlineMail} from 'react-icons/hi';
 import {BsLinkedin} from 'react-icons/bs';
@@ -8,7 +8,7 @@ import Success from './success.js';
 import {useState} from 'react';
 
 
-class Contact extends Component {
+class Contact extends PureComponent {
 
   constructor(props) {
     super(props);

@@ -1,11 +1,11 @@
-import React, { Component } from 'react';
+import React, { PureComponent } from 'react';
 import './experience.css';
 import {BsPatchCheckFill} from 'react-icons/bs';
 import {AiOutlineCheck} from 'react-icons/ai';
 import {useState} from 'react';
 
 
-class Experience extends Component {
+class Experience extends PureComponent {
  /* CHECKING TO SEE IF WINDOW RESIZE TO WORK WITH MOIBLE AND TABLETS */
 
   constructor(props) {

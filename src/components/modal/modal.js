@@ -1,15 +1,15 @@
-import React, { Component } from 'react';
+import React, { PureComponent } from 'react';
 import './modal.css';
 
 
-class Modal extends Component {
+class Modal extends PureComponent {
     render() {
         return (
 
           <div className="modal">
             <div className="modal__content">
               <div className="modal-header">
-              
+
                 <h2>{this.props.project_data.name}</h2>
               </div>
 

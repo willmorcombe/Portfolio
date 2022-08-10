@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { PureComponent } from 'react';
 import './projects.css';
 import SEPSIS_IMAGE from '../../assets/project.jpg';
 import BUBBLE_IMAGE from '../../assets/sorting-viz-image.jpg';
@@ -12,7 +12,7 @@ import Modal from '../modal/modal.js';
 
 import {useState} from 'react';
 
-class Projects extends Component {
+class Projects extends PureComponent {
 
 
   constructor(props) {

@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { PureComponent } from 'react';
 import './header.css';
 import CV from '../../assets/Will CV.pdf';
 import ME from '../../assets/me.png';
@@ -6,7 +6,7 @@ import {BsLinkedin} from 'react-icons/bs';
 import {BsGithub} from 'react-icons/bs';
 
 
-class Header extends Component {
+class Header extends PureComponent {
 
   render() {
     return (

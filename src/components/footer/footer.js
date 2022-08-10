@@ -1,11 +1,11 @@
-import React, { Component } from 'react';
+import React, { PureComponent } from 'react';
 import './footer.css';
 
 import {BsLinkedin} from 'react-icons/bs';
 import {BsGithub} from 'react-icons/bs';
 
 
-class Footer extends Component {
+class Footer extends PureComponent {
     render() {
         return (
           <footer>
