@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { PureComponent } from 'react';
 import './navbar.css';
 import {BiHomeAlt} from 'react-icons/bi';
 import {BsFillPersonFill} from 'react-icons/bs';
@@ -7,7 +7,7 @@ import {AiOutlineMail} from 'react-icons/ai';
 import {GiNetworkBars} from 'react-icons/gi';
 import {useState} from 'react';
 
-class Navbar extends Component {
+class Navbar extends PureComponent {
 
   constructor(props) {
     super(props);

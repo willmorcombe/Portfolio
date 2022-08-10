@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { PureComponent } from 'react';
 import './about.css';
 import ME from '../../assets/me.jpg';
 import CONTENT from '../../constants/about_data.js';
@@ -6,7 +6,7 @@ import {IoMdGitNetwork} from 'react-icons/io';
 import {GiFilmProjector} from 'react-icons/gi';
 import {MdSchool} from 'react-icons/md';
 
-class About extends Component {
+class About extends PureComponent {
 
 
   render() {

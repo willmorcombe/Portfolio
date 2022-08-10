@@ -1,10 +1,10 @@
-import React, { Component } from 'react';
+import React, { PureComponent } from 'react';
 import './success.css';
 
 import {useState} from 'react';
 
 
-class Contact extends Component {
+class Contact extends PureComponent {
 
   render() {
 
