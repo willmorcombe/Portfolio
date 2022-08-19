@@ -13,14 +13,14 @@ class Modal extends PureComponent {
                 <h2>{this.props.project_data.name}</h2>
               </div>
 
-              <p>
+              <p className="modal-text-description">
                   {this.props.project_data.description}
               </p>
 
-              <p>{this.props.project_data.language}</p>
+              <p>Built in: <p style={{color:'var(--color-primary)', margin:'0', display:'inline-block'}}>{this.props.project_data.language}</p></p>
               <div className="modal-button">
-                <a href={this.props.project_data.url} className="btn">Go To Repo</a>
-                <a onClick={this.props.closeModal} className="btn btn-primary">Go Back</a>
+                <a href={this.props.project_data.url} className="btn modal-button-indv">Go To Repo</a>
+                <a onClick={this.props.closeModal} className="btn btn-primary modal-button-indv">Go Back</a>
               </div>
 
 
