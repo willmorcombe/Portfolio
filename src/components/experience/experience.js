@@ -56,7 +56,7 @@ class Experience extends PureComponent {
                   <BsPatchCheckFill/>
                   <div>
                     <h4>Javascript</h4>
-                    <small className="text-light">Experienced</small>
+                    <small className="text-light">Skilled</small>
                   </div>
                 </article>
 
@@ -94,7 +94,7 @@ class Experience extends PureComponent {
                   <BsPatchCheckFill/>
                   <div>
                     <h4>React</h4>
-                    <small className="text-light">Experienced</small>
+                    <small className="text-light">Intermediate</small>
                   </div>
                 </article>
 
@@ -110,7 +110,7 @@ class Experience extends PureComponent {
                   <BsPatchCheckFill/>
                   <div>
                     <h4>PyTorch</h4>
-                    <small className="text-light">Experienced</small>
+                    <small className="text-light">Skilled</small>
                   </div>
                 </article>
               </div>
@@ -139,7 +139,7 @@ class Experience extends PureComponent {
                 <article className="experience-details">
                   <BsPatchCheckFill/>
                   <div>
-                    <h4>Gitlab</h4>
+                    <h4>Git</h4>
                     <small className="text-light">Experienced</small>
                   </div>
                 </article>
@@ -147,8 +147,8 @@ class Experience extends PureComponent {
                 <article className="experience-details">
                   <BsPatchCheckFill/>
                   <div>
-                    <h4>Gitlab</h4>
-                    <small className="text-light">Experienced</small>
+                    <h4>Docker</h4>
+                    <small className="text-light">Intermediate</small>
                   </div>
                 </article>
               </div>

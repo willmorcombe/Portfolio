@@ -1,10 +1,10 @@
 import React, { PureComponent } from 'react';
 import './about.css';
 import ME from '../../assets/me.jpg';
-import CONTENT from '../../constants/about_data.js';
 import {IoMdGitNetwork} from 'react-icons/io';
 import {GiFilmProjector} from 'react-icons/gi';
 import {MdSchool} from 'react-icons/md';
+import AboutData from './about_data.js';
 
 class About extends PureComponent {
 
@@ -38,7 +38,7 @@ class About extends PureComponent {
                 <small>20+ Projects Built</small>
               </article>
 
-              <article className="about-card">
+              <article className="about-card education-card">
                 <MdSchool className="about-icon"/>
                 <h5>Education</h5>
                 <small>One Bachelor One Masters</small>
@@ -46,7 +46,7 @@ class About extends PureComponent {
               </article>
             </div>
 
-            <p> {CONTENT['para']}</p>
+            <AboutData/>
 
             <a href="#contact" className="btn btn-primary"> Let's Talk</a>
 

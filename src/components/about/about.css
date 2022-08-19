@@ -79,6 +79,10 @@ section {
   color: var(--color-light);
 }
 
+.p-color {
+  color: var(--color-primary);
+}
+
 
 /*  ========== MEDIA QUERIES ================*/
 
@@ -90,9 +94,14 @@ section {
     width: 65%;
     margin: 0 auto 3rem;
   }
+  .education-card {
+    grid-area: education;
+  }
 
   .about-cards {
     grid-template-columns: 1fr 1fr;
+    grid-template-areas: '. .'
+                         'education education';
     gap: 1rem;
   }
 

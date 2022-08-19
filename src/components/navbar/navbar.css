@@ -35,3 +35,12 @@ nav a.active {
   background: var(--bg-color);
   color: var(--color-white);
 }
+
+/* ================= MEDIA QUERIES =================*/
+
+
+@media screen and (max-width: 600px) {
+  nav {
+    zoom: 90%;
+  }
+}

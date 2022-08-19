@@ -30,3 +30,22 @@
   justify-content: center;
   gap: 2rem;
 }
+
+.modal-text-description{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+
+/* ======================== media queries ========================*/
+@media screen and (max-width: 600px) {
+  .modal-button-indv {
+    width: 100%;
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .modal-button {
+    padding: 2rem 0 2rem 0;
+  }
+}
