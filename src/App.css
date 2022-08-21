@@ -110,9 +110,6 @@ a {
   transition: var(--transition);
 }
 
-a:hover {
-  color: var(--color-white);
-}
 
 .btn {
   width: max-content;
@@ -125,11 +122,6 @@ a:hover {
   transition: var(--transition);
 }
 
-.btn:hover {
-  background: var(--color-white);
-  color: var(--bg-color);
-  border-color: transparent;
-}
 
 .btn-primary {
   background: var(--color-primary);
@@ -151,6 +143,18 @@ img {
 /*  ========== MEDIA QUERIES ================*/
 
 /* MEDIUM DEVICES */
+
+@media (hover: hover) {
+  a:hover {
+    color: var(--color-white);
+  }
+
+  .btn:hover {
+    background: var(--color-white);
+    color: var(--bg-color);
+    border-color: transparent;
+  }
+}
 
 @media screen and (max-width: 1024px) {
   .container {

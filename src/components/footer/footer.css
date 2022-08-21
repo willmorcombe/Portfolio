@@ -59,13 +59,15 @@ footer a {
   border: 1px solid transparent;
 }
 
-.footer-socials a:hover {
-  background: transparent;
-  color: var(--bg-color);
-  border-color: var(--bg-color);
 
+
+@media  (hover: hover) {
+  .footer-socials a:hover {
+    background: transparent;
+    color: var(--bg-color);
+    border-color: var(--bg-color);
+  }
 }
-
 
 @media screen and (max-width: 600px) {
   .permalinks {

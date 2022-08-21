@@ -34,9 +34,6 @@ section {
   transition: var(--transition);
 }
 
-.about-me-image:hover {
-  transform: rotate(0deg);
-}
 
 .about-cards {
   display: grid;
@@ -53,11 +50,6 @@ section {
   transition: var(--transition);
 }
 
-.about-card:hover{
-  background: transparent;
-  border-color: var(--color-primary-variant);
-  cursor: default;
-}
 
 .about-icon {
   color: var(--color-primary);
@@ -88,6 +80,18 @@ section {
 
 
 /* SMALL DEVICES */
+
+@media (hover: hover) {
+  .about-me-image:hover {
+    transform: rotate(0deg);
+  }
+
+  .about-card:hover{
+    background: transparent;
+    border-color: var(--color-primary-variant);
+    cursor: default;
+  }
+}
 
 @media screen and (max-width: 600px) {
   .about-me {

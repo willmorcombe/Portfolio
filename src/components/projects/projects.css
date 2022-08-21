@@ -19,11 +19,6 @@
   transition: var(--transition);
 }
 
-.project-item:hover {
-  border-color: var(--color-primary-variant);
-  background: transparent;
-}
-
 .project-item-image {
   border-radius: 1.5rem;
   overflow: hidden;
@@ -43,6 +38,13 @@
 }
 
 /* =========================== media queries =========================*/
+
+@media (hover: hover) {
+  .project-item:hover {
+    border-color: var(--color-primary-variant);
+    background: transparent;
+  }
+}
 
 @media screen and (max-width: 1024px) {
   .project-container {
