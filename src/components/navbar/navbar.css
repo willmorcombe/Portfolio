@@ -27,9 +27,6 @@ nav a {
   font-size: 1.1rem;
 }
 
-nav a:hover {
-  background: rgba(0, 0, 0, 0.3);
-}
 
 nav a.active {
   background: var(--bg-color);
@@ -38,6 +35,11 @@ nav a.active {
 
 /* ================= MEDIA QUERIES =================*/
 
+@media (hover: hover) {
+  nav a:hover {
+    background: rgba(0, 0, 0, 0.3);
+  }
+}
 
 @media screen and (max-width: 600px) {
   nav {

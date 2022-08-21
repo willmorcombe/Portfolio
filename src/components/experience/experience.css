@@ -26,12 +26,6 @@
   height: fit-content;
 }
 
-.experience-container-left > div:hover {
-  background: transparent;
-  border-color: var(--color-primary-variant);
-  cursor: default;
-}
-
 .experience-container-left > div h3 {
   text-align: center;
   margin-bottom: 2rem;
@@ -64,12 +58,6 @@
   border: 1px solid var(--bg-color);
   height: fit-content;
   transition: var(--transition);
-}
-
-.experience-work:hover {
-  background: transparent;
-  border-color: var(--color-primary-variant);
-  cursor: default;
 }
 
 .experience-work-head {
@@ -121,6 +109,20 @@
 
 /* ======================= media queries ======================== */
 
+@media (hover: hover) {
+  .experience-work:hover {
+    background: transparent;
+    border-color: var(--color-primary-variant);
+    cursor: default;
+  }
+
+  .experience-container-left > div:hover {
+    background: transparent;
+    border-color: var(--color-primary-variant);
+    cursor: default;
+  }
+}
+
 @media screen and (max-width: 1200px) {
   .experience-container {
     grid-template-columns: 1fr;
@@ -141,10 +143,18 @@
     padding: 2rem;
     margin: 0 auto;
   }
+
+}
+
+@media screen and (max-width: 600px) {
+  .experience-details {
+    font-size: 0.8rem;
   }
 
-  @media screen and (max-width: 600px) {
-    .experience-details {
-      font-size: 0.8rem;
-    }
-    }
+  .experience-container-right {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;;
+    width: 100%;
+  }
+}
