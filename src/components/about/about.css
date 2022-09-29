@@ -81,7 +81,7 @@ section {
 
 /* SMALL DEVICES */
 
-@media (hover: hover) {
+@media (hover: hover) and (pointer: fine) {
   .about-me-image:hover {
     transform: rotate(0deg);
   }

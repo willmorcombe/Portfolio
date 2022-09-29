@@ -36,7 +36,7 @@ class Experience extends PureComponent {
 
         <div className="container experience-container">
           <h3 className="experience-title-left">My Skills</h3>
-          <h3 className={this.state.width < 1200 ? 'hidden' : 'experience-title-right'}>My Jobs</h3>
+          <h3 className={this.state.width < 1800 ? 'hidden' : 'experience-title-right'}>My Jobs</h3>
 
           <div className="experience-container-left">
 
@@ -156,34 +156,35 @@ class Experience extends PureComponent {
 
 
           </div>
-
-          <h3 className={this.state.width > 1200 ? 'hidden' : 'experience-title-right'}>My Jobs</h3>
+          
+          <h3 className={this.state.width > 1800 ? 'hidden' : 'experience-title-right'}>My Jobs</h3>
 
           <div className="experience-container-right">
             <article className="experience-work">
               <div className="experience-work-head">
-                <h3>Data Scientist</h3>
+                <h3 className="experience-work-name">CENTRAL TEST</h3>
+                <h3 className="experience-work-title">Data Scientist</h3>
               </div>
 
               <ul className="work-list">
                 <li>
                   <AiOutlineCheck className="work-list-icon"/>
-                  <p>Some point about working here add in constants ;alskdfjas;dflkj;asd flkas;dflkjasd ;lfkjasd;lfk j;lkj ;aslkdjf;aslkdfj ;aslkdfj ;aslkdfj ;asldkfj ;asdlkfjas;ldkfj; lk j</p>
+                  <p>Worked with project managers to design and create web applications using Django to help with the growing needs of the R&D team. One of the projects included completely re-engineering the way the R&D team run statistics on clients by creating a stand-alone tool to automate the whole process.</p>
                 </li>
 
                 <li>
                   <AiOutlineCheck className="work-list-icon"/>
-                  <p>Some point about working here add in constants</p>
+                  <p> Created and deployed an NLP model to detect a candidate’s education and experience from a CV. The process included the model design, the data collection and annotation, model training and testing, and the final integration into existing projects. </p>
                 </li>
 
                 <li>
                   <AiOutlineCheck className="work-list-icon"/>
-                  <p>Some point about working here add in constants</p>
+                  <p> Developed SQL queries and views to fetch necessary data from a legacy database as well as helping with the design process of other newly created databases.</p>
                 </li>
 
                 <li>
                   <AiOutlineCheck className="work-list-icon"/>
-                  <p>Some point about working here add in constants</p>
+                  <p> Generated scripts for text mining and web crawling to gather large, but important datasets from websites to aid the machine learning models. </p>
                 </li>
               </ul>
             </article>

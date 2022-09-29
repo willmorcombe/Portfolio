@@ -35,7 +35,7 @@ nav a.active {
 
 /* ================= MEDIA QUERIES =================*/
 
-@media (hover: hover) {
+@media (hover: hover) and (pointer: fine) {
   nav a:hover {
     background: rgba(0, 0, 0, 0.3);
   }

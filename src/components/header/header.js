@@ -25,7 +25,7 @@ class Header extends PureComponent {
 
           {/* contact buttons */}
           <div className="cta">
-            <a href={CV} Download className="btn">Download CV</a>
+            <a href={CV} target="_blank" Download className="btn">Download CV</a>
             <a href="#contact" className="btn btn-primary">Contact</a>
           </div>
 

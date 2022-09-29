@@ -35,7 +35,7 @@ class About extends PureComponent {
               <article className="about-card">
                 <GiFilmProjector className="about-icon"/>
                 <h5>Projects</h5>
-                <small>20+ Projects Built</small>
+                <small>10+ Projects Built</small>
               </article>
 
               <article className="about-card education-card">

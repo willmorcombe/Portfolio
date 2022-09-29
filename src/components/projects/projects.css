@@ -39,7 +39,7 @@
 
 /* =========================== media queries =========================*/
 
-@media (hover: hover) {
+@media (hover: hover) and (pointer: fine) {
   .project-item:hover {
     border-color: var(--color-primary-variant);
     background: transparent;
