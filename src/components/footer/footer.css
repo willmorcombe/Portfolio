@@ -61,7 +61,7 @@ footer a {
 
 
 
-@media  (hover: hover) {
+@media  (hover: hover) and (pointer: fine) {
   .footer-socials a:hover {
     background: transparent;
     color: var(--bg-color);
