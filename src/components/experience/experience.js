@@ -36,7 +36,7 @@ class Experience extends PureComponent {
 
         <div className="container experience-container">
           <h3 className="experience-title-left">My Skills</h3>
-          <h3 className={this.state.width < 1800 ? 'hidden' : 'experience-title-right'}>My Jobs</h3>
+          <h3 className={this.state.width < 1200 ? 'hidden' : 'experience-title-right'}>My Jobs</h3>
 
           <div className="experience-container-left">
 
@@ -156,8 +156,8 @@ class Experience extends PureComponent {
 
 
           </div>
-          
-          <h3 className={this.state.width > 1800 ? 'hidden' : 'experience-title-right'}>My Jobs</h3>
+
+          <h3 className={this.state.width > 1200 ? 'hidden' : 'experience-title-right'}>My Jobs</h3>
 
           <div className="experience-container-right">
             <article className="experience-work">
