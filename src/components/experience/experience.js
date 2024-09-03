@@ -101,7 +101,7 @@ class Experience extends PureComponent {
                 <article className="experience-details">
                   <BsPatchCheckFill/>
                   <div>
-                    <h4>Pandas</h4>
+                    <h4>Flask</h4>
                     <small className="text-light">Experienced</small>
                   </div>
                 </article>
@@ -109,7 +109,7 @@ class Experience extends PureComponent {
                 <article className="experience-details">
                   <BsPatchCheckFill/>
                   <div>
-                    <h4>PyTorch</h4>
+                    <h4>Pandas</h4>
                     <small className="text-light">Skilled</small>
                   </div>
                 </article>
@@ -163,28 +163,41 @@ class Experience extends PureComponent {
             <article className="experience-work">
               <div className="experience-work-head">
                 <h3 className="experience-work-name">CENTRAL TEST</h3>
-                <h3 className="experience-work-title">Data Scientist</h3>
+                <h3 className="experience-work-title">Python Developer</h3>
+                <h4 className="experience-work-title" style={{color: 'grey'}}>(2 + years)</h4>
               </div>
 
               <ul className="work-list">
                 <li>
                   <AiOutlineCheck className="work-list-icon"/>
-                  <p>Worked with project managers to design and create web applications using Django to help with the growing needs of the R&D team. One of the projects included completely re-engineering the way the R&D team run statistics on clients by creating a stand-alone tool to automate the whole process.</p>
+                  <p>Helped design and create a statistics tool, primarily backend (in <b>Django</b>) to help re-engineer the 
+way the R&D team run statistics on client data, decreasing the time of analysis by over 50%.</p>
                 </li>
 
                 <li>
                   <AiOutlineCheck className="work-list-icon"/>
-                  <p> Created and deployed an NLP model to detect a candidate’s education and experience from a CV. The process included the model design, the data collection and annotation, model training and testing, and the final integration into existing projects. </p>
+                  <p>Dealing with R&D requests to add features on their “Dictionary” project. This involved 
+constantly updating / creating RESTful API’s, UI feature and database schemas in order to work 
+with the teams underlying agile methodology. </p>
                 </li>
 
                 <li>
                   <AiOutlineCheck className="work-list-icon"/>
-                  <p> Developed SQL queries and views to fetch necessary data from a legacy database as well as helping with the design process of other newly created databases.</p>
+                  <p>Created and deployed an NLP models to detect a candidate’s education and experience from a 
+                  CV. The process included the model design, data collection, annotation and model training.  </p>
                 </li>
 
                 <li>
                   <AiOutlineCheck className="work-list-icon"/>
-                  <p> Generated scripts for text mining and web crawling to gather large, but important datasets from websites to aid the machine learning models. </p>
+                  <p>Adding a CV analysis feature on to the company testing server. Created and designed the model 
+structure to fit with the companies micro-services framework. Writing backend RESTful API’s 
+to access the NER models that were built for the feature (above point). Built in Flask.  </p>
+                </li>
+
+                <li>
+                  <AiOutlineCheck className="work-list-icon"/>
+                  <p>Developed SQL queries and views to fetch necessary data from a legacy database as well as 
+                  helping with the design process of other newly created databases.  </p>
                 </li>
               </ul>
             </article>

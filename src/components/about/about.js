@@ -29,7 +29,7 @@ class About extends PureComponent {
               <article className="about-card">
                 <IoMdGitNetwork className="about-icon"/>
                 <h5>Experience</h5>
-                <small> 1+ Years Working</small>
+                <small> 2+ Years Working</small>
               </article>
 
               <article className="about-card">
@@ -41,7 +41,9 @@ class About extends PureComponent {
               <article className="about-card education-card">
                 <MdSchool className="about-icon"/>
                 <h5>Education</h5>
-                <small>One Bachelor One Masters</small>
+                <small>Bsc First</small>
+                <br></br>
+                <small>Msc Distinction</small>
 
               </article>
             </div>
