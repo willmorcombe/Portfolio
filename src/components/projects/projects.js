@@ -40,9 +40,13 @@ class Projects extends PureComponent {
             name: datajson[i].name,
             description: datajson[i].description,
             language: datajson[i].language,
-            url: datajson[i].svn_url
+            url: datajson[i].svn_url,
+            updated_at: datajson[i].updated_at
           }
         }
+        // data.sort(function(a, b) {
+        //   return b.updated_at - a.updated_at
+        // })
         this.setState({data: data});
         this.setState({isLoaded: true});
 
