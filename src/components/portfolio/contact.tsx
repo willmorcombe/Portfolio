@@ -36,9 +36,16 @@ export function Contact() {
           Let&apos;s connect
         </h2>
         <p className="mt-4 max-w-xl text-sm leading-relaxed text-muted-foreground md:text-base">
-          I&apos;m open to full-time roles, graduate positions, and the right
-          project collaborations. If you&apos;re hiring or have something worth
-          building, I&apos;d be glad to hear from you.
+          I&apos;m open to full-time roles, freelance backend work, and
+          collaborations that need solid Python systems or AI-backed APIs. Reach
+          me at{" "}
+          <a
+            href={`mailto:${profile.email}`}
+            className="font-medium text-foreground underline-offset-4 hover:underline"
+          >
+            {profile.email}
+          </a>
+          .
         </p>
 
         <div className="mt-8 flex flex-wrap gap-3">

@@ -23,8 +23,8 @@ export function Projects() {
           Selected work
         </h2>
         <p className="mt-4 max-w-2xl text-sm leading-relaxed text-muted-foreground md:text-base">
-          A mix of production software, personal products, and supporting tools
-          that reflect how I build.
+          Production work from Central Test R&amp;D, a live SaaS product, and
+          tooling I&apos;ve designed and shipped.
         </p>
 
         <div className="mt-10 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
@@ -58,14 +58,16 @@ export function Projects() {
                   ))}
                 </div>
               </CardContent>
-              <CardFooter className="border-t border-border/60">
-                <Button variant="ghost" size="sm" className="px-0" asChild>
-                  <a href={project.href} target="_blank" rel="noreferrer">
-                    {project.live ? "Visit site" : "View project"}
-                    <ArrowUpRightIcon data-icon="inline-end" />
-                  </a>
-                </Button>
-              </CardFooter>
+              {project.href ? (
+                <CardFooter className="border-t border-border/60">
+                  <Button variant="ghost" size="sm" className="px-0" asChild>
+                    <a href={project.href} target="_blank" rel="noreferrer">
+                      {project.live ? "Visit site" : "View project"}
+                      <ArrowUpRightIcon data-icon="inline-end" />
+                    </a>
+                  </Button>
+                </CardFooter>
+              ) : null}
             </Card>
           ))}
         </div>

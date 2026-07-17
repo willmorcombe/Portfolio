@@ -1,6 +1,8 @@
 import { ArrowUpRightIcon } from "@phosphor-icons/react"
 
+import portrait from "@/assets/will-morcombe.jpg"
 import { ModeToggle } from "@/components/mode-toggle"
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import { Button } from "@/components/ui/button"
 import { navLinks, profile } from "@/data/portfolio"
 
@@ -12,9 +14,16 @@ export function Header() {
           href="#"
           className="flex items-center gap-3 text-sm font-medium tracking-tight text-foreground transition-opacity hover:opacity-80"
         >
-          <span className="flex size-8 items-center justify-center rounded-lg bg-primary text-[10px] font-semibold tracking-widest text-primary-foreground">
-            WM
-          </span>
+          <Avatar className="size-8 rounded-lg after:rounded-lg">
+            <AvatarImage
+              src={portrait}
+              alt={profile.name}
+              className="rounded-lg object-cover object-[center_20%]"
+            />
+            <AvatarFallback className="rounded-lg bg-primary text-[10px] font-semibold tracking-widest text-primary-foreground">
+              WM
+            </AvatarFallback>
+          </Avatar>
           <span className="hidden sm:inline">{profile.name}</span>
         </a>
 

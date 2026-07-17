@@ -38,8 +38,8 @@ export function Hero() {
         <dl className="grid gap-6 sm:grid-cols-3">
           {[
             { label: "Location", value: profile.location },
-            { label: "Focus", value: "Full-stack web" },
-            { label: "Availability", value: "Open to opportunities" },
+            { label: "Focus", value: profile.focus },
+            { label: "Availability", value: profile.availability },
           ].map((item) => (
             <div key={item.label}>
               <dt className="text-xs uppercase tracking-[0.12em] text-muted-foreground">

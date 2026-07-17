@@ -1,4 +1,5 @@
-import { Avatar, AvatarFallback } from "@/components/ui/avatar"
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
+import portrait from "@/assets/will-morcombe.jpg"
 import { about, profile } from "@/data/portfolio"
 
 export function About() {
@@ -11,10 +12,15 @@ export function About() {
               About
             </p>
             <h2 className="mt-3 font-heading text-2xl font-semibold tracking-tight md:text-3xl">
-              Thoughtful engineering, end to end
+              From research to production systems
             </h2>
           </div>
-          <Avatar className="size-14 rounded-xl border border-border">
+          <Avatar className="size-14 rounded-xl border border-border after:rounded-xl">
+            <AvatarImage
+              src={portrait}
+              alt={profile.name}
+              className="rounded-xl object-cover object-[center_20%]"
+            />
             <AvatarFallback className="rounded-xl bg-primary text-sm font-medium text-primary-foreground">
               WM
             </AvatarFallback>
