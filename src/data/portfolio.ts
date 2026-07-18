@@ -8,7 +8,7 @@ export const profile = {
   focus: "Python · APIs · AI",
   availability: "Open to opportunities",
   github: "https://github.com/willmorcombe",
-  linkedin: "https://linkedin.com/in/willmorcombe",
+  linkedin: "https://www.linkedin.com/in/will-morcombe-bb59411a3/",
 }
 
 export const about = {
